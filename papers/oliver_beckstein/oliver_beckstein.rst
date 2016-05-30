@@ -239,6 +239,18 @@ Through this approach only a single frame of data is present in memory at any ti
        ag.positions
 
 
+Interactive Use and Visualization
+---------------------------------
+
+MDAnalysis works equally well as an interactive tool as it does in scripted workflows.
+In particular, Universes and AtomGroups can be visualized in Jupyter_ notebooks using nglview_, which gives a convenience function for parsing these objects (Figure :ref:`fig:nglview`).
+
+.. figure:: figs/nglview.png
+
+   MDAnalysis can be used with nglview_ to directly visualize molecules and trajectories in Jupyter_ notebooks. :label:`fig:nglview`
+
+
+
 Analysis Module
 ---------------
 
